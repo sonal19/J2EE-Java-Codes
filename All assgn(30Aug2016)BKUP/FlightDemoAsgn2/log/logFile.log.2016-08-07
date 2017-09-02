@@ -1,0 +1,2 @@
+2016-08-07 13:30:18,083 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 

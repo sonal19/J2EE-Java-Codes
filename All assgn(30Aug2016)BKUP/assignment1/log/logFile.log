@@ -1,0 +1,55 @@
+2016-07-26 16:13:26,854 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 49 - Enter the Name of Item, Type of Item, Price of Item, Quantity of Item..
+e.g.- -name ItemName -type ItemType -price ItemPrice -quantity ItemQuantity
+ItemType can be of Three Type- raw,imported,manufactured and it is mandatory, ItemName(hyphen is not allowed between name) should be the first element
+in the input string, Type, Price and Quantity can be in any order, there should be at least one space between all four fields. 
+Enter:  
+2016-07-26 16:13:50,036 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 51 - -name tjtjtj -type raw
+2016-07-26 16:13:50,036 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 37 -  Item Name : tjtjtj 
+ Item Price : 0.000000 
+ Item Type : raw 
+ Item Quantity : 0 
+ Item Tax : 0.000000 
+ Item Total Cost : 0.000000 
+
+2016-07-26 16:13:50,036 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 40 - Want to Enter more (Y/y) (Press any key to exit): 
+2016-07-26 16:14:13,252 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 49 - Enter the Name of Item, Type of Item, Price of Item, Quantity of Item..
+e.g.- -name ItemName -type ItemType -price ItemPrice -quantity ItemQuantity
+ItemType can be of Three Type- raw,imported,manufactured and it is mandatory, ItemName(hyphen is not allowed between name) should be the first element
+in the input string, Type, Price and Quantity can be in any order, there should be at least one space between all four fields. 
+Enter:  
+2016-07-26 16:14:15,683 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 37 -  Item Name : tjtjtj 
+ Item Price : 0.000000 
+ Item Type : raw 
+ Item Quantity : 0 
+ Item Tax : 0.000000 
+ Item Total Cost : 0.000000 
+
+2016-07-26 16:14:15,683 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 40 - Want to Enter more (Y/y) (Press any key to exit): 
+2016-07-26 16:15:17,467 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 49 - Enter the Name of Item, Type of Item, Price of Item, Quantity of Item..
+e.g.- -name ItemName -type ItemType -price ItemPrice -quantity ItemQuantity
+ItemType can be of Three Type- raw,imported,manufactured and it is mandatory, ItemName(hyphen is not allowed between name) should be the first element
+in the input string, Type, Price and Quantity can be in any order, there should be at least one space between all four fields. 
+Enter:  
+2016-07-26 16:15:21,217 INFO  [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 51 - -name tjtjtj -type raw
+2016-07-26 16:15:21,237 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 37 -  Item Name : tjtjtj 
+ Item Price : 0.000000 
+ Item Type : raw 
+ Item Quantity : 0 
+ Item Tax : 0.000000 
+ Item Total Cost : 0.000000 
+
+2016-07-26 16:15:21,237 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 40 - Want to Enter more (Y/y) (Press any key to exit): 
+2016-07-26 16:17:14,420 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 49 - Enter the Name of Item, Type of Item, Price of Item, Quantity of Item..
+e.g.- -name ItemName -type ItemType -price ItemPrice -quantity ItemQuantity
+ItemType can be of Three Type- raw,imported,manufactured and it is mandatory, ItemName(hyphen is not allowed between name) should be the first element
+in the input string, Type, Price and Quantity can be in any order, there should be at least one space between all four fields. 
+Enter:  
+2016-07-26 16:17:17,406 INFO  [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails getUserInput 51 - -name nehal mittal -type imported -quantity 1 -price 2.55 ----ok
+2016-07-26 16:17:17,406 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 37 -  Item Name : nehal mittal 
+ Item Price : 2.550000 
+ Item Type : imported 
+ Item Quantity : 1 
+ Item Tax : 0.255000 
+ Item Total Cost : 7.805000 
+
+2016-07-26 16:17:17,406 DEBUG [main] - com.nagarro.Assignment1.presentation.DisplayAllDetails main 40 - Want to Enter more (Y/y) (Press any key to exit): 

@@ -1,0 +1,48 @@
+
+<br />
+<br />
+
+	<fieldset id="EnquiryField">
+		<legend id="flgEnquiry">Enquiry Details</legend>
+
+
+		<table id="formTable">
+			<tr>
+				<td align="left">From<span class="req">*</span></td>
+				<td id="searchedData" align="left" th:text="${depLoc}"></td>
+			</tr>
+			<tr>
+				<td><br /></td>
+			</tr>
+			<tr>
+				<td align="left">To<span class="req">*</span></td>
+				<td id="searchedData" align="left" th:text="${arrLoc}"></td>
+			</tr>
+			<tr>
+				<td><br /></td>
+			</tr>
+			<tr>
+				<td align="left">Departs on<span class="req">*</span></td>
+				<td id="searchedData" align="left" th:text="${validTill}"></td>
+			</tr>
+			<tr>
+				<td><br /></td>
+			</tr>
+			<tr>
+				<td align="left">Class <span class="req">*</span></td>
+				<td id="searchedData" align="left" th:text="${flightClass}"></td>
+			</tr>
+
+		</table>
+
+	<table>
+	<tr>
+	<td></td>
+	<td align="right">	<button class="button4"> <a th:href="|search?name=${name}&image=${image}|">ModifySearch</a></button>
+	</td>
+	</tr>
+	</table>
+
+	</fieldset>
+	
+

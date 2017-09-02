@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/BaseLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/html/header.html" />
+		<put-attribute name="logout" value="" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/html/footer.html" />
+
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="/statics/css/layout.css" />
+			<add-attribute value="/statics/css/imageMgmt.css" />
+			<add-attribute value="/statics/css/normalize.css" />
+			<add-attribute value="/statics/css/style.css" />
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts">
+			<!-- <add-attribute value="/statics/js/imageMgmt.js" /> -->
+			<add-attribute value="/statics/js/userEventMgmt.js" />
+			<add-attribute value="/statics/js/jquery-3.1.0.min.js" />
+		</put-list-attribute>
+
+	</definition>
+
+	<definition name="/welcome.tiles" extends="baseLayout">
+		<put-attribute name="title" value="LoginRegister" />
+		<put-attribute name="body" value="/jsp/register_login.jsp" />
+	</definition>
+
+	<definition name="/customer.tiles" extends="baseLayout">
+		<put-attribute name="title" value="Customer Form" />
+		<put-attribute name="logout" value="/html/logoutBar.html" />
+		<put-attribute name="menu" value="/html/menubarHome.html" />
+		
+		<put-attribute name="body" value="/jsp/imageMgmt.jsp" />
+	</definition>
+	<definition name="/customer.success.tiles" extends="baseLayout">
+		<put-attribute name="title" value="Customer Form" />
+		<put-attribute name="logout" value="/html/logoutBar.html" />
+		<put-attribute name="menu" value="/html/menubarUpload.html" />
+		
+		<put-attribute name="body" value="/jsp/uploadCSV.jsp" />
+		<put-list-attribute name="javascripts">
+			<add-attribute value="/statics/js/imageMgmt.js" />
+			</put-list-attribute>
+		
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="/statics/css/layout.css" />
+			<add-attribute value="/statics/css/imageMgmt.css" />
+			<add-attribute value="/statics/css/normalize.css" />
+			<!-- <add-attribute value="/statics/css/style.css" /> -->
+		</put-list-attribute>
+	</definition>
+
+
+
+</tiles-definitions>

@@ -1,0 +1,8 @@
+com.nagarro.flightdemo.constant
+com.nagarro.flightdemo.dto
+com.nagarro.flightdemo.exception
+com.nagarro.flightdemo.presentation
+com.nagarro.flightdemo.services
+com.nagarro.flightdemo.threads
+com.nagarro.flightdemo.utils
+com.nagarro.flightdemo.validation

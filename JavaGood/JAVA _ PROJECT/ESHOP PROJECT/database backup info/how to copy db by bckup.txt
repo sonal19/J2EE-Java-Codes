@@ -1,0 +1,28 @@
+I HAVE SENT U THE BACKUP OF DATABASE WITH NAME** tom.bak**
+
+On Destination:
+
+1. Create a blank DB with the same name i.e tom(sorry for this i hav tried to change the name but i got some error).
+
+2. Right click, tasks, restore.
+
+3. Show it the backed up DB. 
+
+4. There is a setting in there, "override current DB". (Since your destination DB is a blank DB, makes no difference).
+
+5. see pics ............that r taken by me...................
+
+6. then you have to create a DSN(for SQL server) of name (mydata) keep same name else u have to change in all program........---i think u knw this.......
+
+FOR ANY QUERY CALL ME 
+RICKTAM
+8882413728
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------
+use----
+http://msdn.microsoft.com/en-us/library/ms187510.aspx
+http://www.techenclave.com/programming/how-transfer-tables-made-sql-99996/

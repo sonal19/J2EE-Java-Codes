@@ -1,0 +1,42 @@
+<meta name="google-signin-client_id"
+	content="178430002966-aoi8es60bffe9p5gf11dmrrba8ep2umf.apps.googleusercontent.com"></meta>
+
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+      
+     // alert(getParameterByName('image'));
+      window.location="login";
+    });
+  }
+  
+  function onLoad() {
+      gapi.load('auth2', function() {
+        gapi.auth2.init();
+      });
+    }
+  </script>
+
+<script src="https://apis.google.com/js/platform.js?onload=onLoad"></script>
+
+<div class="wrapper col4">
+	<table id="logoutTable">
+		<tr>
+			<td id="bimg"></td>
+
+			<td align="right" width="30%">
+
+				<p>
+					Welcome
+					<!-- <img th:src="${image}" width="30px" height="30px"/> -->
+					<font color="red"><a th:text="${name}"></a></font> <a href="#"
+						onclick="signOut();">SignOut</a>
+				</p> <br class="clear" />
+			</td>
+			<td align="center"><img th:src="${image}" width="35px"
+				height="35px" alt="Profile Picture"/></td>
+		</tr>
+	</table>
+</div>

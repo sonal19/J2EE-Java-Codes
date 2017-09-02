@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="signup">
+		<h1>Sign Up for Free</h1>
+
+		<form action="../RegisterServlet" method="post">
+
+			<div class="top-row">
+				<div class="field-wrap">
+					<label> Full Name<span class="req">*</span>
+					</label> <input type="text" name="fullname" id="fname" />
+				</div>
+				<div class="field-wrap">
+					<label> Email Address<span class="req">*</span>
+					</label> <input type="email" name="email" id="email" />
+				</div>
+
+			</div>
+
+			<div class="field-wrap">
+				<label> User Name<span class="req">*</span>
+				</label> <input type="text" name="username" id="username" required
+					autocomplete="off" onKeyPress="edValueKeyPress()"
+					onKeyUp="edValueKeyPress()" />
+			</div>
+
+			<div class="field-wrap">
+				<label> Set A Password<span class="req">*</span>
+				</label> <input type="password" name="password" required autocomplete="off"
+					id="pass" />
+			</div>
+
+			<button type="submit" id="regBtn" class="button button-block" />
+			Register
+			</button>
+
+		</form>
+
+	</div>
+</body>
+</html>

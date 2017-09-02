@@ -1,0 +1,7 @@
+com.nagarro.jdbcdemo.constants
+com.nagarro.jdbcdemo.dao
+com.nagarro.jdbcdemo.domain
+com.nagarro.jdbcdemo.exception
+com.nagarro.jdbcdemo.presentation
+com.nagarro.jdbcdemo.services
+com.nagarro.jdbcdemo.utils

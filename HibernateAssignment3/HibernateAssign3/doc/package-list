@@ -1,0 +1,8 @@
+com.nagarro.hibernate.flightdemo.constants
+com.nagarro.hibernate.flightdemo.domain
+com.nagarro.hibernate.flightdemo.exception
+com.nagarro.hibernate.flightdemo.presentation
+com.nagarro.hibernate.flightdemo.services
+com.nagarro.hibernate.flightdemo.threads
+com.nagarro.hibernate.flightdemo.utils
+com.nagarro.hibernate.flightdemo.validation

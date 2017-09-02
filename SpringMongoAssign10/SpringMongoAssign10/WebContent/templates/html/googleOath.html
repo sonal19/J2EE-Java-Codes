@@ -1,0 +1,50 @@
+<script
+	src="https://apis.google.com/js/platform.js?onload=onLoadCallback"></script>
+
+<!-- <script src="https://apis.google.com/js/platform.js"></script>
+ -->
+<script>
+var flag=0;
+/*  gapi.load(auth2,function()
+{
+	 gapi.auth2.init({
+      client_id: '178430002966-aoi8es60bffe9p5gf11dmrrba8ep2umf.apps.googleusercontent.com'
+    });
+}); */
+window.onLoadCallback = function(){
+	  gapi.auth2.init({
+	      client_id: '178430002966-aoi8es60bffe9p5gf11dmrrba8ep2umf.apps.googleusercontent.com'
+	    });
+	}
+function onSignIn(googleUser) 
+{
+	  var profile = googleUser.getBasicProfile();
+	  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+	  console.log('Name: ' + profile.getName());
+	  console.log('Image URL: ' + profile.getImageUrl());
+	  console.log('Email: ' + profile.getEmail());
+	  alert( profile.getEmail());
+	  window.location="search?name="+ profile.getName()+ decodeURIComponent("%26") + "image="+ profile.getImageUrl();
+	  
+	  //document.getElementById("demo").innerHTML = "<a href='/login'>loginh</a>";
+	}
+/* window.onload=function signOut() 
+  {
+	alert('hi');
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function ()
+    {
+      console.log('User signed out.');
+    });
+  } */
+
+  
+  
+</script>
+<div id="#g-Oath">
+	<h1>--------------or---------------</h1>
+
+	<div class="g-signin2" data-onsuccess="onSignIn" ></div>
+
+</div>
+

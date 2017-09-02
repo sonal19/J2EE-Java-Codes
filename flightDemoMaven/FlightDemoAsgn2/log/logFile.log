@@ -1,0 +1,2 @@
+2016-08-06 14:14:00,421 DEBUG [main] - com.nagarro.flightdemo.presentation.DisplayResults readCSVFile 51 - java.io.FileNotFoundException: .settings (Access is denied)
+2016-08-06 14:14:00,423 DEBUG [main] - com.nagarro.flightdemo.presentation.DisplayResults handleException 41 - 

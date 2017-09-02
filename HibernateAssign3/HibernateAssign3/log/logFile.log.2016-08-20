@@ -1,0 +1,158 @@
+2016-08-20 00:10:26,691 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:10:43,942 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:10:47,230 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 68 - No Flight is available
+2016-08-20 00:10:47,230 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 73 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:14:07,799 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 46 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE 
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - Jeevan | DEL | MUB | 2013-12-31 00:00:00.0 | 1930 | 4.15 | 90000.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - RK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:14:13,820 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 73 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:14:20,713 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:14:26,709 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 46 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE 
+2016-08-20 00:14:26,709 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 7699.999999999999 | B
+2016-08-20 00:14:26,709 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 6860.0 | EB
+2016-08-20 00:14:26,709 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 7909.999999999999 | E
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 7419.999999999999 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - Jeevan | DEL | MUB | 2013-12-31 00:00:00.0 | 1930 | 4.15 | 125999.99999999999 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 7699.999999999999 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 7419.999999999999 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 9100.0 | E
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 6860.0 | E
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 7909.999999999999 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 7419.999999999999 | E
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 9100.0 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - RK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 9100.0 | EB
+2016-08-20 00:14:26,710 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 73 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:15:54,918 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 46 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - Jeevan | DEL | MUB | 2013-12-31 00:00:00.0 | 1930 | 4.15 | 90000.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - RK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:15:59,344 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 73 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:16:38,730 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 46 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:16:42,379 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 54 - RK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:16:42,381 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 73 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:23:34,514 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - RK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:23:40,485 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:24:18,332 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - RickK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:24:20,985 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:31:49,705 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 38 - 
+2016-08-20 00:33:44,166 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:35:45,000 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - RickK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:35:50,197 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:37:16,185 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 38 - 
+2016-08-20 00:38:37,157 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:38:42,627 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:38:42,637 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - RickK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:38:42,637 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-20 00:43:31,965 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 38 - 
+2016-08-20 00:53:53,828 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE|CLASS 
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W377 | DEL | MUB | 2013-12-06 00:00:00.0 | 0600 | 4.1 | 5500.0 | B
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W379 | DEL | MUB | 2013-12-15 00:00:00.0 | 0630 | 4.3 | 4900.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W389 | DEL | MUB | 2013-12-17 00:00:00.0 | 0830 | 4.0 | 5650.0 | E
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 9W378 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E379 | DEL | MUB | 2013-12-12 00:00:00.0 | 0930 | 4.1 | 5500.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-25 00:00:00.0 | 1830 | 4.25 | 5300.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - 6E378 | DEL | MUB | 2013-12-29 00:00:00.0 | 1630 | 3.45 | 6500.0 | E
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI279 | DEL | MUB | 2013-12-10 00:00:00.0 | 0630 | 4.3 | 4900.0 | E
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI289 | DEL | MUB | 2013-12-10 00:00:00.0 | 0830 | 4.0 | 5650.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-17 00:00:00.0 | 1830 | 4.2 | 5300.0 | E
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - AI278 | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 52 - RickK | DEL | MUB | 2013-12-20 00:00:00.0 | 1430 | 3.45 | 6500.0 | EB
+2016-08-20 00:54:00,118 DEBUG [Thread-2] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?

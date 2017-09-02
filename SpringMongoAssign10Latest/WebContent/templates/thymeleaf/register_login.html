@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta>
+<meta name="google-signin-client_id"
+	content="178430002966-aoi8es60bffe9p5gf11dmrrba8ep2umf.apps.googleusercontent.com"></meta>
+
+<title>Sign-Up/Login Form</title>
+<link
+	href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600'
+	rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="static/css/normalize.css">
+<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/layout.css">
+
+
+<!-- <link rel="stylesheet" type="text/css" href="../static/css/Design.css"></link> -->
+<!-- <script src="static/js/imageMgmt.js"></script> -->
+</head>
+
+<body align="center">
+
+	<div th:include="../html/header"></div>
+
+	<div class="wrapper col3">
+		<div id="intro">
+			<div class="form">
+
+				<ul class="tab-group">
+					<li class="tab active"><a href="#login">Log In</a></li>
+					<li class="tab"><a href="#signup">Sign Up</a></li>
+
+				</ul>
+
+				<div class="tab-content">
+
+					<br th:include="../html/login" /> <br th:include="../html/register" />
+
+
+				</div>
+				<!-- tab-content -->
+
+				<p th:include="../html/forgetPassword"></p>
+
+			</div>
+			<!-- /form -->
+
+		</div>
+
+	</div>
+	<br class="clear" />
+	<br class="clear" />
+
+	
+	<p th:include="../html/footer"></p>
+
+	<script src="static/js/jquery-3.1.0.min.js"></script>
+
+	<script src="static/js/userEventMgmt.js"></script>
+</body>
+</html>

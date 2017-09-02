@@ -1,0 +1,14 @@
+2016-08-05 17:02:47,379 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 38 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 
+2016-08-05 17:11:02,636 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 
+2016-08-05 17:11:14,394 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 
+2016-08-05 17:12:46,476 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 
+2016-08-05 17:13:04,684 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 
+2016-08-05 17:23:34,800 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 
+2016-08-05 17:25:37,446 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL BLR 25-04-2013 E both]: 

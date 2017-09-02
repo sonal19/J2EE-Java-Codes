@@ -1,0 +1,106 @@
+2016-08-17 13:38:24,228 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-17 15:18:54,241 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 70 - java.util.NoSuchElementException: No line found
+2016-08-17 15:18:54,241 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 72 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-17 19:58:57,778 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-17 19:59:21,415 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 45 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE 
+2016-08-17 19:59:21,418 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@738c5fe9
+2016-08-17 19:59:21,418 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@7a129a78
+2016-08-17 19:59:21,420 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@42354f2d
+2016-08-17 19:59:21,420 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@13a3a0a6
+2016-08-17 19:59:21,420 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@7d8c39f0
+2016-08-17 19:59:21,420 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@15284d4b
+2016-08-17 19:59:21,421 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@1945faaa
+2016-08-17 19:59:21,421 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 53 - com.nagarro.hibernate.flightdemo.domain.FlightDetails@17eddfb4
+2016-08-17 19:59:21,421 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main outputFilter 72 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-17 20:00:30,072 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-17 20:00:30,103 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-17 20:02:04,822 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-17 20:02:20,674 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#Indigo.csv]
+2016-08-18 01:15:14,694 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:15:23,900 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:24:28,324 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#Air India Data.csv]
+2016-08-18 01:26:04,636 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#Air India Data.csv]
+2016-08-18 01:29:52,489 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:30:46,567 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:31:16,827 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:31:27,114 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 01:32:29,973 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:32:58,661 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 01:33:28,772 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:37:42,106 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:38:41,151 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 01:39:21,529 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 01:40:16,303 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 01:40:49,398 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:11:04,878 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:15:38,426 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:16:50,146 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 02:39:10,221 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:39:19,785 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 02:42:14,692 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:43:08,759 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 02:43:44,787 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:45:16,226 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:45:24,679 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 02:45:32,197 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:45:34,845 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 02:48:23,898 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:49:44,188 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 02:50:21,007 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 02:50:54,807 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 02:51:16,978 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:00:20,610 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:00:41,318 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 03:01:00,187 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:01:08,457 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 03:02:42,080 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:02:54,407 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:06:32,324 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:06:37,422 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:06:53,504 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 03:06:53,504 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - 
+2016-08-18 03:07:42,725 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:09:12,228 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:43:13,999 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:50:02,387 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:50:31,777 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - No row with the given identifier exists: [com.nagarro.hibernate.flightdemo.domain.FlightNames#csvfiles]
+2016-08-18 03:50:42,983 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:52:41,926 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:59:40,506 DEBUG [Thread-1] - com.nagarro.hibernate.flightdemo.presentation.Main getUserInput 34 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-18 03:59:56,930 DEBUG [main] - com.nagarro.hibernate.flightdemo.presentation.Main handleException 42 - Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1

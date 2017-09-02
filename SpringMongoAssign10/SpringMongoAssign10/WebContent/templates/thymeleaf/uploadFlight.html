@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta>
+
+<title>FlightUpload</title>
+<link
+	href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600'
+	rel='stylesheet' type='text/css'>
+
+<!-- <link rel="stylesheet" href="static/css/normalize.css"> -->
+<!-- <link rel="stylesheet" href="static/css/style.css"> -->
+<link rel="stylesheet" href="static/css/layout.css">
+<link rel="stylesheet" type="text/css" href="static/css/flightMgmt.css"></link>
+
+<script src="static/js/flightDataMgmt.js"></script>
+<script src="static/js/jquery-3.1.0.min.js"></script>
+<!-- <link rel="stylesheet" type="text/css" href="../static/css/Design.css"></link> -->
+<!-- <script src="static/js/imageMgmt.js"></script> -->
+</head>
+
+<body align="center">
+
+	<div th:include="../html/header"></div>
+	<div th:include="../html/logoutBar"></div>
+	<div th:include="../html/menubarUpload"></div>
+	
+	<div class="wrapper col3">
+		<div id="intro">
+			<div th:include="../html/uploader"></div>
+		</div>
+		<br class="clear" />
+	</div>
+	<br class="clear" />
+	<br class="clear" />
+
+
+	<p th:include="../html/footer"></p>
+
+
+</body>
+</html>

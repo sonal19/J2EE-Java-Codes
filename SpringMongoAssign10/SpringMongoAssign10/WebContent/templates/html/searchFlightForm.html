@@ -1,0 +1,65 @@
+
+<br />
+<br />
+<form action="displayFlight" method="get">
+	<fieldset id="EnquiryField">
+		<legend id="flgEnquiry">Flight Enquiry</legend>
+
+
+		<table id="formTable">
+			<tr>
+				<td align="left">From<span class="req">*</span></td>
+				<td align="left"><input type="text" name="depLoc" id="dep" /></td>
+			</tr>
+			<tr>
+				<td><br /></td>
+			</tr>
+			<tr>
+				<td align="left">To<span class="req">*</span></td>
+				<td align="left"><input type="text" name="arrLoc" id="arr" /></td>
+			</tr>
+			<tr>
+				<td><br /></td>
+			</tr>
+			<tr>
+				<td align="left">Departs on<span class="req">*</span></td>
+				<td align="left"><input type="date" name="validTill" /></td>
+			</tr>
+			<tr>
+				<td><br /></td>
+			</tr>
+			<tr>
+				<td align="left">Class <span class="req">*</span></td>
+				<td align="left"><select id="ClassList" name="flightClass">
+						<option value="economy">Economy(E)</option>
+						<option value="business">Business(B)</option>
+				</select></td>
+			</tr>
+
+		</table>
+
+		<!-- From<span class="req">*</span> <input type="text" name="depLoc"
+			id="dep" /> <br /> <br />To<span class="req">*</span> <input
+			type="text" name="arrLoc" id="arr" /> <br /> <br /> Departs on<span
+			class="req">*</span> <input type="date" name="validTill" /> <br />
+		<br /> Class<span class="req">*</span> <select id="ClassList"
+			name="flightClass">
+			<option value="economy">Economy(E)</option>
+			<option value="business">Business(B)</option>
+		</select> <br /> <br /> <br /> -->
+
+	<table>
+	<tr>
+	<td></td>
+	<td align="right">	<input type="submit" id="regBtn" class="button4" value="Search" />
+	</td>
+	</tr>
+	</table>
+
+	</fieldset>
+	
+
+	<!-- <button type="submit" id="regBtn" class="button4" />
+		Search
+		</button> -->
+</form>

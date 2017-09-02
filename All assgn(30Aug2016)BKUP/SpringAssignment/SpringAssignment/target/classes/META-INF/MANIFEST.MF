@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringAsignment
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ricktamkundu
+Implementation-Vendor-Id: com.nagarro.springapp
+Build-Jdk: 1.8.0_91
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

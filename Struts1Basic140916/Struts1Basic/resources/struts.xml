@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+
+	<package name="default" extends="struts-default" namespace="/">
+		<result-types>
+			<result-type name="tiles"
+				class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+		<interceptors>
+			<interceptor name="mylogging"
+				class="com.nagarro.struts.hrmanager.interceptor.MyLoggingInterceptor">
+			</interceptor>
+			<interceptor-stack name="loggingStack">
+				<interceptor-ref name="mylogging" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+
+		<action name="">
+			<result type="tiles">/welcome.tiles</result>
+		</action>
+
+		<action name="login" class="com.nagarro.struts.hrmanager.actions.LoginManagerAction"> 
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			 <result name="success" type="chain">showEmpList</result>
+			 <result name="error" type="tiles">/welcome.tiles</result> 
+			</action>
+
+		<!-- <action path="login" type="com.nagarro.struts.hrmanager.actions.LoginManagerAction"	>
+			<forward name="success" path="showEmpList" />
+			<forward name="fail" path="#" />
+		</action> -->
+
+		<action name="customer"
+			class="com.nagarro.struts.hrmanager.actions.CustomerAction">
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			<result name="success" type="tiles">
+				/EmployeeUpload.tiles
+			</result>
+			<result name="input" type="tiles">/customer.tiles</result>
+		</action>
+		<action name="customer-form">
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			<result name="success" type="tiles">/customer.tiles</result>
+		</action>
+		<action name="usersFile"
+			class="com.nagarro.struts.hrmanager.actions.FileUploadAction">
+			<!-- <interceptor-ref name="fileUpload"> <param name="maximumSize">2097152</param> 
+				</interceptor-ref> -->
+			<interceptor-ref name="defaultStack">
+				<param name="fileUpload.allowedTypes">application/ms-excel,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</param>
+			</interceptor-ref>
+			<result name="success">SuccessUserFile.jsp</result>
+			<result name="input">Footer.jsp</result>
+		</action>
+
+		<action name="download"
+			class="com.nagarro.struts.hrmanager.actions.FileDownloadAction">
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			<result name="success" type="stream">
+				Header.jsp
+			</result>
+		</action>
+
+		<action name="showEmpList"
+			class="com.nagarro.struts.hrmanager.actions.EmployeeListAction">
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			<!-- <result name="success">/fileList.tiles</result> -->
+			<result name="success" type="tiles">
+				/EmployeeDetails.tiles
+			</result>
+			<result name="input" type="tiles">
+				/emptyEmpList.tiles
+			</result>
+			<result name="error">
+				/Footer.jsp
+			</result>
+		</action>
+
+		<action name="editEmployee"
+			class="com.nagarro.struts.hrmanager.actions.EditEmployeeAction">
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			<result name="success" type="tiles">
+				/EmployeeDetails.tiles
+			</result>
+			<result name="error">
+				/Footer.jsp
+			</result>
+		</action>
+
+		<action name="deleteEmployee"
+			class="com.nagarro.struts.hrmanager.actions.DeleteEmployeeAction">
+			<interceptor-ref name="loggingStack"></interceptor-ref>
+			<result name="success" type="tiles">
+				/EmployeeDetails.tiles
+			</result>
+			<result name="error">
+				/Footer.jsp
+			</result>
+		</action>
+
+
+	</package>
+</struts>

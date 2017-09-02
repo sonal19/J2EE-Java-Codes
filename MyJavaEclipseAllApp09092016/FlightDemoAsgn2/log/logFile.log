@@ -1,0 +1,37 @@
+2016-08-09 01:21:59,105 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-09 11:14:25,584 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-09 11:14:34,971 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE 
+2016-08-09 11:14:34,972 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 9W379 | DEL | MUB | Sun Dec 15 00:00:00 IST 2013 | 0630 | 4.3 | 4900.0 | EB
+2016-08-09 11:14:34,972 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI279 | DEL | MUB | Tue Dec 10 00:00:00 IST 2013 | 0630 | 4.3 | 4900.0 | E
+2016-08-09 11:14:34,972 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E377 | DEL | MUB | Thu Dec 05 00:00:00 IST 2013 | 0500 | 4.1 | 5100.0 | E
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 9W378 | DEL | MUB | Tue Dec 17 00:00:00 IST 2013 | 1830 | 4.2 | 5300.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI278 | DEL | MUB | Tue Dec 17 00:00:00 IST 2013 | 1830 | 4.2 | 5300.0 | E
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E378 | DEL | MUB | Wed Dec 25 00:00:00 IST 2013 | 1830 | 4.25 | 5300.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI277 | DEL | MUB | Thu Dec 05 00:00:00 IST 2013 | 0600 | 4.1 | 5500.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E379 | DEL | MUB | Thu Dec 12 00:00:00 IST 2013 | 0930 | 4.1 | 5500.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 9W389 | DEL | MUB | Tue Dec 17 00:00:00 IST 2013 | 0830 | 4.0 | 5650.0 | E
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI289 | DEL | MUB | Tue Dec 10 00:00:00 IST 2013 | 0830 | 4.0 | 5650.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI278 | DEL | MUB | Fri Dec 20 00:00:00 IST 2013 | 1430 | 3.45 | 6500.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - RK | DEL | MUB | Fri Dec 20 00:00:00 IST 2013 | 1430 | 3.45 | 6500.0 | EB
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E378 | DEL | MUB | Sun Dec 29 00:00:00 IST 2013 | 1630 | 3.45 | 6500.0 | E
+2016-08-09 11:14:35,003 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-09 11:15:38,836 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults getUserInput 33 - Enter:- Depurture Location(3 letters), Arrival Location(3 letters), Date(DD-MM-YYYY), Class(E/B), OutPref(Fare/both) 
+ [e.g- DEL MUB 05-12-2013 E both]: 
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 44 - FLIGHT_NUM|DEP_LOC|ARR_LOC|VALID_TILL|FLIGHT_TIME|FLIGHT_DURN|FARE 
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 9W379 | DEL | MUB | Sun Dec 15 00:00:00 IST 2013 | 0630 | 4.3 | 4900.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI279 | DEL | MUB | Tue Dec 10 00:00:00 IST 2013 | 0630 | 4.3 | 4900.0 | E
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E377 | DEL | MUB | Thu Dec 05 00:00:00 IST 2013 | 0500 | 4.1 | 5100.0 | E
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 9W378 | DEL | MUB | Tue Dec 17 00:00:00 IST 2013 | 1830 | 4.2 | 5300.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI278 | DEL | MUB | Tue Dec 17 00:00:00 IST 2013 | 1830 | 4.2 | 5300.0 | E
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E378 | DEL | MUB | Wed Dec 25 00:00:00 IST 2013 | 1830 | 4.25 | 5300.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI277 | DEL | MUB | Thu Dec 05 00:00:00 IST 2013 | 0600 | 4.1 | 5500.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E379 | DEL | MUB | Thu Dec 12 00:00:00 IST 2013 | 0930 | 4.1 | 5500.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 9W389 | DEL | MUB | Tue Dec 17 00:00:00 IST 2013 | 0830 | 4.0 | 5650.0 | E
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI289 | DEL | MUB | Tue Dec 10 00:00:00 IST 2013 | 0830 | 4.0 | 5650.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - AI278 | DEL | MUB | Fri Dec 20 00:00:00 IST 2013 | 1430 | 3.45 | 6500.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - RK | DEL | MUB | Fri Dec 20 00:00:00 IST 2013 | 1430 | 3.45 | 6500.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - 6E378 | DEL | MUB | Sun Dec 29 00:00:00 IST 2013 | 1630 | 3.45 | 6500.0 | E
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 52 - Jeevan | DEL | MUB | Tue Dec 31 00:00:00 IST 2013 | 1930 | 4.15 | 90000.0 | EB
+2016-08-09 11:16:49,207 DEBUG [Thread-0] - com.nagarro.flightdemo.presentation.DisplayResults outputFilter 71 - Want to Enter More (Y/y)(Any other Key for No)?

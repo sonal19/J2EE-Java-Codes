@@ -1,0 +1,203 @@
+2016-08-23 13:17:30,055 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 13:17:39,779 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 13:47:23,865 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 13:47:29,952 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 13:47:34,471 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 65 - java.lang.NullPointerException
+2016-08-23 13:47:34,472 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:47:34,472 ERROR [main] - com.nagarro.datastorage.presentation.Main ifDatabaseExists 81 - java.lang.NullPointerException
+2016-08-23 13:47:34,472 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 32 - Database Created....
+2016-08-23 13:47:34,472 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:47:34,472 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - java.lang.NullPointerException
+2016-08-23 13:48:05,347 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 13:48:17,657 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 13:48:19,798 ERROR [main] - com.nagarro.datastorage.presentation.Main ifDatabaseExists 81 - java.lang.NullPointerException
+2016-08-23 13:48:19,798 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 28 - Database Created....
+2016-08-23 13:48:19,799 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 65 - java.lang.NullPointerException
+2016-08-23 13:48:19,799 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:48:19,799 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:48:19,799 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - java.lang.NullPointerException
+2016-08-23 13:53:07,340 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 13:53:25,933 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 13:53:31,135 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 28 - Database Created....
+2016-08-23 13:53:31,136 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 65 - java.lang.NullPointerException
+2016-08-23 13:53:31,136 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:53:31,136 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:53:31,136 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - java.lang.NullPointerException
+2016-08-23 13:54:29,356 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 13:54:47,530 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 13:56:55,254 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 28 - Database Created....
+2016-08-23 13:56:57,892 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 65 - java.lang.NullPointerException
+2016-08-23 13:56:58,616 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 13:59:33,961 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 13:59:40,187 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 13:59:42,351 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+2016-08-23 13:59:42,352 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.sql.SQLException: No database selected
+2016-08-23 13:59:42,352 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMFlight_Details' at line 1
+2016-08-23 14:03:34,801 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:03:40,641 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:03:43,962 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 28 - Database Created....
+2016-08-23 14:03:43,962 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 65 - java.lang.NullPointerException
+2016-08-23 14:03:43,962 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 14:03:43,962 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.lang.NullPointerException
+2016-08-23 14:03:43,962 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - java.lang.NullPointerException
+2016-08-23 14:05:05,061 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:05:06,978 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMFlight_Details' at line 1
+2016-08-23 14:05:18,335 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:05:27,391 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:05:34,884 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 28 - Database Created....
+2016-08-23 14:06:29,461 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 65 - java.lang.NullPointerException
+2016-08-23 14:13:45,387 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:13:50,597 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:13:52,974 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:13:53,006 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+2016-08-23 14:13:53,022 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 27 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:13:53,022 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 42 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMFlight_Details' at line 1
+2016-08-23 14:13:53,023 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:18:35,329 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:18:39,851 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:18:41,196 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:18:41,214 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 28 - 0rows Updated
+2016-08-23 14:18:41,251 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 28 - 1rows Updated
+2016-08-23 14:18:41,251 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 45 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMFlight_Details' at line 1
+2016-08-23 14:18:41,251 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:19:02,369 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:19:07,871 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:19:09,529 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:19:09,577 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 28 - 1rows Updated
+2016-08-23 14:19:09,577 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 45 - java.sql.SQLException: Column 'id' not found.
+2016-08-23 14:19:09,577 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:21:23,456 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:21:29,103 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:21:30,089 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:21:30,120 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 28 - 1rows Updated
+2016-08-23 14:21:30,121 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:31:29,822 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:31:36,120 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:31:37,613 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:31:37,614 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:32:23,721 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:32:27,360 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:32:28,157 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:32:28,204 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 38 - 1rows Updated
+2016-08-23 14:32:28,219 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:33:27,166 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:33:31,214 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:33:32,779 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:33:32,827 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 38 - 1rows Updated
+2016-08-23 14:33:32,827 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:38:46,488 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:38:51,651 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,857 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,858 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,858 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,858 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,858 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,858 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,890 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,890 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,890 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,890 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,905 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,905 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,905 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,921 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,921 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,921 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,921 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,921 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,936 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,936 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,936 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,936 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,952 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 36 - 1rows Updated
+2016-08-23 14:38:52,952 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:41:13,650 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:41:17,736 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:41:19,204 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 80 - java.lang.NullPointerException
+2016-08-23 14:41:19,204 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - java.lang.NullPointerException
+2016-08-23 14:41:19,204 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - java.lang.NullPointerException
+2016-08-23 14:41:19,204 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 57 - java.lang.NullPointerException
+2016-08-23 14:41:19,204 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:42:43,445 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:42:46,902 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:42:48,548 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:42:48,548 ERROR [main] - com.nagarro.datastorage.presentation.Main ifTableExists 80 - java.lang.NullPointerException
+2016-08-23 14:42:48,548 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - java.lang.NullPointerException
+2016-08-23 14:42:48,548 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - java.lang.NullPointerException
+2016-08-23 14:42:48,548 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 57 - java.lang.NullPointerException
+2016-08-23 14:42:48,548 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:43:43,695 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:43:48,449 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:43:49,551 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:43:49,583 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:43:49,598 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 57 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:43:49,598 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:45:45,969 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:45:49,738 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:45:52,747 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 35 - Database not exists..please create database..
+2016-08-23 14:45:52,794 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:45:52,794 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 57 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:45:52,794 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:46:17,597 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:46:23,057 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:46:24,218 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:46:24,218 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 57 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 14:46:24,218 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:47:26,691 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:47:32,179 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:51:08,877 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:51:12,737 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:51:13,882 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 42 - 0rows Updated
+2016-08-23 14:51:13,977 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 38 - 29rows Updated
+2016-08-23 14:51:13,992 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 14:52:29,254 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 14:52:33,602 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 14:52:38,924 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 38 - 29Rows Updated
+2016-08-23 14:52:38,925 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:15:59,335 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:16:03,403 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:16:05,224 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - java.lang.ClassCastException: java.lang.StringBuffer cannot be cast to java.lang.String
+2016-08-23 15:16:05,224 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:16:26,489 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:16:29,156 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:16:30,912 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - java.sql.SQLException: Column count doesn't match value count at row 1
+2016-08-23 15:16:30,927 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:17:20,449 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:17:24,265 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:17:25,490 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Checksum VARCHAR(50) PRIMARY KEY' at line 1
+2016-08-23 15:17:25,522 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 15:17:25,522 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 62 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 15:17:25,522 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:17:31,994 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:17:35,804 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:17:36,449 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Checksum VARCHAR(50) PRIMARY KEY' at line 1
+2016-08-23 15:17:36,465 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 15:17:36,465 ERROR [main] - com.nagarro.datastorage.presentation.Main selectQueries 62 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'mydatabase.flight_details' doesn't exist
+2016-08-23 15:17:36,465 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:18:52,116 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:18:56,707 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:20:41,562 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 41 - 0Table Created
+2016-08-23 15:21:05,386 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 38 - 29Rows Updated
+2016-08-23 15:21:05,402 DEBUG [main] - com.nagarro.datastorage.presentation.Main main 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:21:43,821 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:21:49,991 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:22:13,524 ERROR [main] - com.nagarro.datastorage.presentation.Main updateQueries 45 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '698ee2eefc3144d4baf0635d3418ee60' for key 'PRIMARY'
+2016-08-23 15:52:09,645 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:52:14,394 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:52:15,430 DEBUG [main] - com.nagarro.datastorage.presentation.Main handleOutput 41 - duplicate Data
+2016-08-23 15:52:15,430 DEBUG [main] - com.nagarro.datastorage.presentation.Main handleOutput 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:54:11,896 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:54:15,395 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:54:16,563 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 43 - 0Table Created
+2016-08-23 15:54:16,673 DEBUG [main] - com.nagarro.datastorage.presentation.Main updateQueries 40 - 29Rows Updated
+2016-08-23 15:54:16,689 DEBUG [main] - com.nagarro.datastorage.presentation.Main handleOutput 44 - Want to Enter More (Y/y)(Any other Key for No)?
+2016-08-23 15:54:19,818 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 41 - Enter the UserName and Password for the database connection: 
+2016-08-23 15:54:33,386 DEBUG [main] - com.nagarro.datastorage.presentation.Main getUserInput 46 - Enter your choice Number(1-4) for DataBses: 1) MySQL   2) Oracle   3) SQL   4)DB2   5)PostgreSQL
+2016-08-23 15:54:34,531 DEBUG [main] - com.nagarro.datastorage.presentation.Main handleOutput 41 - Table does not exist
+2016-08-23 15:54:34,531 DEBUG [main] - com.nagarro.datastorage.presentation.Main handleOutput 44 - Want to Enter More (Y/y)(Any other Key for No)?

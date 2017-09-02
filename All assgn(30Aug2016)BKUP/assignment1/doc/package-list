@@ -1,0 +1,6 @@
+com.nagarro.Assignment1.constant
+com.nagarro.Assignment1.domain
+com.nagarro.Assignment1.exception
+com.nagarro.Assignment1.presentation
+com.nagarro.Assignment1.services.impl
+com.nagarro.Assignment1.validation

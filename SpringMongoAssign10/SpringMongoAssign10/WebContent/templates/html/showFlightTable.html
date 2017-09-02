@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="static/css/designing.css">
+<link rel="stylesheet" href="static/css/normalize.css">
+
+<script src="static/js/jquery-ui.js"></script>
+<script src="static/js/userEventMgmt.js"></script>
+<script src="static/js/paging.js"></script>
+<script src="static/js/tableEdit-0.1.js"></script>
+<script src="static/js/fileListView.js"></script>
+<br class="clear" />
+
+
+<center>
+	<h1>Employee Table</h1>
+</center>
+
+<table id="tableEdit">
+
+	<thead>
+		<tr>
+
+			<th id="tHead">Emp Id <a href="orderByEmpIdList">&#9660;</a><a
+				href="showEmpList">&#8635;</a></th>
+			<th id="tHead">Name<a href="orderByEmpNameList">&#9660;</a><a
+				href="showEmpList">&#8635;</a></th>
+			<th id="tHead">Location</th>
+			<th id="tHead">Email</th>
+			<th id="tHead">DOB</th>
+			<th id="tHead">Actions</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr th:each="fl:${flightSearch}">
+
+			<td id="tData" th:text="${fl.arrLoc}" /></td>
+		<!-- 	<td id="tData" class="tdEdit" id="hidden" th:text="${fl.depLoc}" /></td> -->
+			<td id="tData" class="tdEdit" th:text="${fl.validTill}" /></td>
+			<td id="tData" class="tdEdit" th:text="${fl.flightClass}" /></td>
+			<td id="tData" class="tdEdit" th:text="${fl.fare}" /></td>
+			<td id="tData" class="tdEdit" th:text="${fl.arrLoc}" /></td>
+
+			<td id="tData"> <span class="action"
+				action="Delete"><img src="static/images/delete.png"
+					id="deleteEmp" /></span></td>
+		</tr>
+
+	</tbody>
+
+</table>
+<script type="text/javascript">
+	$(document).ready(function() {
+	
+		$('#tableEdit').a = abc();
+		$('#tableEdit').paging({
+			limit : 7
+		});
+	});
+</script>

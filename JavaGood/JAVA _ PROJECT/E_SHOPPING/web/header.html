@@ -1,0 +1,290 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body background="images/i8.jpg">
+
+<style type="text/css">
+    @import url(master.css);
+#s
+{
+border:2px ;
+padding:10px 10px;
+background-image:url("images/i1.jpg");
+-webkit-border-radius:20px;
+}
+
+/*----------------------------------------------------*/
+#x
+{
+height:280px;
+background-image:url("images/i8.jpg");
+-webkit-animation:myfirst 50s;
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background-image:url("images/i8.jpg");}
+10% {background-image:url("images/i1.jpg");}
+20%  {background-image:url("images/i9.jpg");}
+30%  {background-image:url("images/i3.jpg");}
+40% {background-image:url("images/i2.jpg");}
+50% {background-image:url("images/i5.jpg");}
+60% {background-image:url("images/i10.jpg");}
+70% {background-image:url("images/i11.jpg");}
+80% {background-image:url("images/i12.jpg");}
+90% {background-image:url("images/i13.jpg");}
+100% {background-image:url("images/i14.jpg");}
+}
+
+/*----------------------------------------------------*/
+
+#y
+{
+    width:225px;
+height:115px;
+background-image:url("images/logo0.jpg");
+position:relative;
+-webkit-animation:mysecond 15s;
+}
+@-webkit-keyframes mysecond
+{
+0%   {background-image:url("images/logo0.jpg"); left:0px; top:0px;}
+25%  {background-image:url("images/logo1.jpg"); left:425px; top:0px;}
+50%  {background-image:url("images/logo2.jpg");left:425px; top:130px;}
+75%  {background-image:url("images/logo4.jpg"); left:0px; top:130px;}
+100% {background-image:url("images/logo0.jpg"); left:0px; top:0px;}
+
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+@-webkit-keyframes pulse {
+	from {
+		background: #000;
+	}
+	25% {
+		background-color: #003;
+	}
+	50% {
+		background-color: #030;
+	}
+	to {
+		background: #000;
+	}
+}
+
+z {
+	z-index: 0;
+	color: rgba(0, 0, 0, 0);
+}
+
+#fog,
+#fog-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 300px;
+	margin-top: -200px;
+	margin-left: -205px;
+	opacity: 5;
+	background: url(images/mypic.jpg) repeat-x 0 center;
+	-webkit-animation-name: fogAnimation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#fog-2 {
+	opacity: .65;
+	-webkit-animation-duration: 60s;
+}
+
+@-webkit-keyframes fogAnimation {
+	from {
+		-webkit-transform: rotate(0deg);
+		background-position: 0 center;
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		background-position: 1000px center;
+	}
+}
+
+#glow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 800px;
+	margin: -400px 0 0 -400px;
+	background: url(s2.jpg) repeat-x 0 0;
+	-webkit-animation-name: glowAnimation;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes glowAnimation {
+	from {
+		opacity: 1;
+	}
+	50% {
+		opacity: .75;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#light {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	height: 350px;
+	margin: -200px 0 0 -200px;
+	background: url(images/i20.jpg) no-repeat center center;
+	-webkit-animation-name: lightAnimation;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes lightAnimation {
+	from {
+		opacity: .35;
+	}
+	50% {
+		opacity: .7;
+	}
+	to {
+		opacity: .35;
+	}
+}
+
+#stars,
+#stars-2,
+#small-stars,
+#small-stars-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 600px;
+	margin: -300px 0 0 -300px;
+	background: url(s4.jpg) no-repeat center center;
+	-webkit-animation-name: starsLarge;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes starsLarge {
+	from {
+		-webkit-transform: rotate(0deg) scale(3);
+		opacity: .1;
+	}
+	to {
+		-webkit-transform: rotate(360deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+#stars-2 {
+	-webkit-animation-name: starsLargeAlt;
+	-webkit-animation-duration: 45s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes starsLargeAlt {
+	from {
+		-webkit-transform: rotate(180deg) scale(3);
+		opacity: .25;
+	}
+	to {
+		-webkit-transform: rotate(360deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+#small-stars,
+#small-stars-2 {
+	background: url(i13.jpg) no-repeat center center;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-name: starsSmall;
+}
+
+#small-stars-2 {
+	-webkit-animation-name: starsSmallAlt;
+	-webkit-animation-duration: 30s;
+}
+
+@-webkit-keyframes starsSmall {
+	from {
+		-webkit-transform: rotate(360deg) scale(3);
+		opacity: .25;
+	}
+	to {
+		-webkit-transform: rotate(0deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes starsSmallAlt {
+	from {
+		-webkit-transform: rotate(0deg) scale(3);
+		opacity: .1;
+	}
+	to {
+		-webkit-transform: rotate(360deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+</style>
+  
+  <div id="x"><center>
+  <table border="0" bordercolor="white" width="500" background="images/bgcolor.jpg" >
+<tr><th><a href="about_us.jsp"><img src="images/abt.jpg" height="20" width="20">ABOUT</a></th>
+    <th><a href=""><img src="images/exctng.jpg" height="20" width="20">EXCITING OFFERS</a></th>
+    <th><a href="career.jsp"><img src="images/ratng.jpg" height="20" width="20">CAREERS</a></th>
+    <th><a href="contact_us.jsp"><img src="images/cntct.jpg" height="20" width="20">CONTACT US</a></th>
+</table>
+</center>
+ <br>
+<table border="0" height="100" width="1330"  bordercolor="white" bordercolorlight="white" cellpadding="0" cellspacing="0">
+    <tr><th><img alt="tom"  src="images/logo.jpg" height="120" width="200" ></th>
+      <th><img alt="tom"  src="name.jpg"height="170" width="900"></th>
+    <th><img alt="tom"  src="images/logo.jpg" height="120" width="200" ></th></tr>
+</table>
+</div>
+ 
+<br><table height="3"width="1330">
+    <tr><td align="center">
+            <div id="y"><div id="fog-2"><div id="light"></div></div></div></td>
+<td align="right">
+<form  action="search">
+<table border="0" cellspacing="0" cellpadding="2" height="50">
+    <tr><td>
+   <div id="s">  <img src="images/searchtxt.jpg"width="115"height="45">&nbsp;<TEXTAREA NAME="SEARCH" ROWS=3 COLS=75></TEXTAREA></b></font>
+    <input type="image" name="submit" src="images/s6.jpg"width="65"height="40"></td></tr></div>
+</table>
+</form>
+</td></tr></table>
+
+
+
+
+  </body>
+</html>
